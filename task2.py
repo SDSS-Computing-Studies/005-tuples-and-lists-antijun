@@ -24,11 +24,11 @@ Enter a word: virus
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
 
-word1 = input("Enter a word: ")
-word2 = input("Enter a word: ")
-word3 = input("Enter a word: ")
-word4 = input("Enter a word: ")
-word5 = input("Enter a word: ")
+word1 = input("Enter a word: ").strip()
+word2 = input("Enter a word: ").strip()
+word3 = input("Enter a word: ").strip()
+word4 = input("Enter a word: ").strip()
+word5 = input("Enter a word: ").strip()
 
 mylist = [word1, word2, word3, word4, word5]
 

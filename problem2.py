@@ -29,7 +29,7 @@ fruit = ["apple", "cherry", "kiwi", "apple", "banana",
 
 print(fruit)
 
-a = input("Enter a word: ")
+a = input("Enter a word: ").strip()
 
 if a not in fruit:
     fruit.append(a)
@@ -40,7 +40,3 @@ elif a in fruit:
         if i == a:
             fruit.remove(i)
     print(fruit)
-    
-
-
-

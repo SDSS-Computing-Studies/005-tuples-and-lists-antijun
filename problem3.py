@@ -32,6 +32,3 @@ while min(numList) != -1:
 
 numList.sort()
 print("The largest number you entered is " + str(max(numList)))
-
-
-
