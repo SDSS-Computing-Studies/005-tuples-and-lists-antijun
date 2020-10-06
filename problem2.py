@@ -24,5 +24,23 @@ word not in list
 
 """
 
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+fruit = ["apple", "cherry", "kiwi", "apple", "banana",
+         "strawberry", "kiwi", "blueberry", "kiwi"]
+
+print(fruit)
+
+a = input("Enter a word: ")
+
+if a not in fruit:
+    fruit.append(a)
+    print("word not in list")
+    print(fruit)
+elif a in fruit:
+    for i in fruit:
+        if i == a:
+            fruit.remove(i)
+    print(fruit)
+    
+
+
 
