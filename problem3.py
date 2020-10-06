@@ -23,5 +23,15 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
+numList = []
+n1 = int(input("Enter an integer: "))
+numList.append(n1)
+
+while min(numList) != -1:
+    numList.append(int(input("Enter an integer: ")))
+
+numList.sort()
+print("The largest number you entered is " + str(max(numList)))
+
 
 
